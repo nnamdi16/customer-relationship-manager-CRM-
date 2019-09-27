@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web-customer-tracker.main:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_customer_tracker_main_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-customer-tracker.main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.1.9.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.glassfish.web:javax.el:2.2.6" />
+          <element id="library" level="project" name="Gradle: javax.el:javax.el-api:3.0.1-b06" />
+          <element id="library" level="project" name="Gradle: org.hibernate.validator:hibernate-validator:6.0.17.Final" />
+          <element id="library" level="project" name="Gradle: javax.validation:validation-api:2.0.1.Final" />
+          <element id="library" level="project" name="Gradle: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Gradle: javax.servlet.jsp.jstl:jstl-api:1.2" />
+          <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.2.Final" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.1.9.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.1.9.RELEASE" />
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.1.9.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.1.9.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.1.9.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.1.9.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.1.9.RELEASE" />
+          <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="web-customer-tracker.main/web/Web Gradle : web-customer-tracker-1.0-SNAPSHOT.war" />
+      <element id="javaee-facet-resources" facet="web-customer-tracker.main/web/Web" />
+    </root>
+  </artifact>
+</component>
